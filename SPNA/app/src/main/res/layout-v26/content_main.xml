@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="149dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/logo"
+            app:civ_border_color="#3f51b5"
+            app:civ_border_width="0dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#3f51b5"
+            app:civ_shadow_radius="0"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <EditText
+            android:id="@+id/loginUsername"
+            android:layout_width="213dp"
+            android:layout_height="54dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:drawableStart="@drawable/ic_action_user"
+            android:ems="10"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="388dp"
+            android:drawableStart="@drawable/ic_action_password"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="401dp"
+            android:autofillHints="" />
+
+    <TextView
+            android:id="@+id/registar"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="630dp"
+            android:text="@string/registar"
+            android:clickable="true"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="136dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/roundedbutton"
+        android:alpha="0.8"
+        android:text="Entrar" />
+
+</RelativeLayout>

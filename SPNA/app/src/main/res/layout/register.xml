@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:text="Registo"
+        android:textSize="15pt" />
+
+    <EditText
+        android:id="@+id/registName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/registApelido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="Apelido" />
+    <EditText
+        android:id="@+id/registPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="Password"
+        />
+    <EditText
+        android:id="@+id/registPassword2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="Confirmar Password"
+        />
+    <EditText
+        android:id="@+id/registEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/registTelemovel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="Telemovel" />
+
+    <Button
+        android:id="@+id/registButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/roundedbutton"
+        android:alpha="0.7"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:text="@string/registar"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/registVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:text="voltar"
+        android:textSize="16sp"
+        android:layout_marginTop="650dp"
+        android:focusable="true" />
+
+
+
+
+
+</RelativeLayout>
